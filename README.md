@@ -59,6 +59,9 @@ I put together a quick tiled image for the background, including some items used
 
 ![Background tile labelled](./images/readme-bg-image-labels.png)
 
+The image is tiled in the body, using a style tag and setting the background to repeat.
+
+![The tiled background](./assets/images/readme-tiling-bg-sample.png)
 Sources:
 [Background repeat](https://www.html.am/html-codes/background-code/background-repeat.cfm)
 [Bootstrap Log In Sample](https://getbootstrap.com/docs/5.0/examples/sign-in/)
