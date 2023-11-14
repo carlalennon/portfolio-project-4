@@ -1,3 +1,8 @@
+.bg-tile {
+    background-image: url("./assets/images/log-in-bg-tile.png");
+    background-repeat: repeat;
+}
+
 .center {
     display: flex;
     justify-content: center;
