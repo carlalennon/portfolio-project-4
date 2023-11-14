@@ -40,5 +40,19 @@ Happy coding!
 
 
 ## Wireframes 
+## Creating the Login Page 
+
+There's a standard way that login pages look. I want:
+- an image in the background
+- a floaoting box with a login form
+- a logo on the top
+- a space for username and password
+- password is censored with the option to reveal
+- forgot password option to reset password
+- remember me checkbox
+- button to send the form and log in 
+- create account button 
+
+![Login Wireframe](./images/wireframe-log-in.png)
 
 ## Customising Bootstrap using SASS
