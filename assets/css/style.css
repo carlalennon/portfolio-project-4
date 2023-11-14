@@ -1,0 +1,14 @@
+.btn .btn-primary {
+    color: #888888;
+}
+
+.background {
+    color: #888888;
+}
+
+#banner-logo {
+    height: 100px;
+    width:100%;
+    border: 1px solid red;
+    color: #888888;
+}

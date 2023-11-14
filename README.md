@@ -59,4 +59,7 @@ I put together a quick tiled image for the background, including some items used
 
 ![Background tile labelled](./images/readme-bg-image-labels.png)
 
+Sources:
+[Background repeat](https://www.html.am/html-codes/background-code/background-repeat.cfm)
+
 ## Customising Bootstrap using SASS
