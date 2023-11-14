@@ -55,4 +55,8 @@ There's a standard way that login pages look. I want:
 
 ![Login Wireframe](./images/wireframe-log-in.png)
 
+I put together a quick tiled image for the background, including some items used by knitters. The items are labelled in the below image 
+
+![Background tile labelled](./images/readme-bg-image-labels.png)
+
 ## Customising Bootstrap using SASS
