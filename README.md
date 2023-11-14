@@ -53,15 +53,19 @@ There's a standard way that login pages look. I want:
 - button to send the form and log in 
 - create account button 
 
-![Login Wireframe](./images/wireframe-log-in.png)
+![Login Wireframe](./assets/images/wireframe-log-in.png)
 
 I put together a quick tiled image for the background, including some items used by knitters. The items are labelled in the below image 
 
-![Background tile labelled](./images/readme-bg-image-labels.png)
+![Background tile labelled](./assets/images/readme-bg-image-labels.png)
 
 The image is tiled in the body, using a style tag and setting the background to repeat.
 
 ![The tiled background](./assets/images/readme-tiling-bg-sample.png)
+
+I bootstrapped a basic login form, using the references from the BS website cited below. For now, the password form has no option to view an uncensored version of the password. This will be added with Javascript later 
+
+![The log in form](./assets/images/readme-login-form.png)
 Sources:
 [Background repeat](https://www.html.am/html-codes/background-code/background-repeat.cfm)
 [Bootstrap Log In Sample](https://getbootstrap.com/docs/5.0/examples/sign-in/)
