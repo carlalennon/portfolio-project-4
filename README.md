@@ -63,11 +63,32 @@ The image is tiled in the body, using a style tag and setting the background to 
 
 ![The tiled background](./assets/images/readme-tiling-bg-sample.png)
 
-I bootstrapped a basic login form, using the references from the BS website cited below. For now, the password form has no option to view an uncensored version of the password. This will be added with Javascript later 
+I bootstrapped a basic login form, using the references from the BS website cited below. For now, the password form has no option to view an uncensored version of the password. This will be added with Javascript later. Looks close enough to the wireframe for now.
 
 ![The log in form](./assets/images/readme-login-form.png)
 Sources:
 [Background repeat](https://www.html.am/html-codes/background-code/background-repeat.cfm)
 [Bootstrap Log In Sample](https://getbootstrap.com/docs/5.0/examples/sign-in/)
+
+## Home Feed
+
+The idea for the home feed is as follows:
+- Users are placed here once they log in 
+- Feed shows posts from other users
+- Feed can have photos, patterns or text posts
+- Feed scrolls in reverse chronological order
+- Top left of this screen has the three slash symbol for a menu
+- Menu opens out from screen left
+- When menu is open, the feed underneath is dulled 
+
+The menu contains the following items: 
+- A search function to search all posts on site by key word
+- The "patterns" option will show only pattern posts in the feed 
+- The forum option is temporary, but might lead users to a forum where they can start and contribute to threads
+- Friends shows the user who they follow
+- My account brings the user to a screen where they can configure their account settings and manage their information
+
+![Home feed](./assets/images/wireframe-home-feed.png)
+![Hamburger open](./assets/images/wireframe-hamburger-menu.png)
 
 ## Customising Bootstrap using SASS
