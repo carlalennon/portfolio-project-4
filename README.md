@@ -69,6 +69,9 @@ I use a sketch pen to create a three bar icon for the menu
 
 ![Menu icon](./assets/images/icon-menu.png)
 
+I add the button to the top left of the home page, with a light gray background for now. It's non functioning at the moment 
+![Menu icon on the home page](./assets/images/readme-home-02.png)
+
 
 ## Customising Bootstrap using SASS
 
