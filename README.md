@@ -92,3 +92,9 @@ The menu contains the following items:
 ![Hamburger open](./assets/images/wireframe-hamburger-menu.png)
 
 ## Customising Bootstrap using SASS
+
+## Django 
+
+Once I got to the part of the LMS that introduced Django, I knew my fledgling project would need an overhaul. 
+
+Source: ![Django Tutorial](https://www.w3schools.com/django/django_intro.php)
