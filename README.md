@@ -56,6 +56,20 @@ Copied HTML from login page to get header links
 Removed pattern from BG and added stock bootstrap BG temporarily until Sass can be done
 
 ![Home feed first stage](./assets/images/readme-home-01.png)
+
+Grabbed an icon from Font Awesome, on the recommendation of the Bootstrap website 
+
+<i class="fa-solid fa-bars"></i>
+
+https://fontawesome.com/docs/web/setup/get-started
+
+Decided to make my own icon instead after the weekly team meeting, people liked my sketched hand doawn icons. A nice touch would be to make these an SVG in illustrator, but I'll used a raster based icon for now 
+
+I use a sketch pen to create a three bar icon for the menu
+
+![Menu icon](./assets/images/icon-menu.png)
+
+
 ## Customising Bootstrap using SASS
 
 ## Django 
