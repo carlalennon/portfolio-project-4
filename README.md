@@ -76,6 +76,9 @@ Create vertical collapsing menu using this guide ![Button giude](https://getboot
 
 Menu button isn't working, probably due to Javascript? 
 
+Troubleshooting Javascript issues in the Bootstrap docs
+![Module Specifiers Documentation](https://v8.dev/features/modules#specifiers)
+
 ## Customising Bootstrap using SASS
 
 ## Django 
