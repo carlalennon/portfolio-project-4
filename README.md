@@ -79,6 +79,9 @@ Menu button isn't working, probably due to Javascript?
 Troubleshooting Javascript issues in the Bootstrap docs
 ![Module Specifiers Documentation](https://v8.dev/features/modules#specifiers)
 
+Left the JS stuff for now, added nav bar and title to home page 
+![Home page with nav bar](./assets/images/readme-home-03.png)
+
 ## Customising Bootstrap using SASS
 
 ## Django 
