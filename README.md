@@ -79,6 +79,16 @@ Menu button isn't working, probably due to Javascript?
 Troubleshooting Javascript issues in the Bootstrap docs
 ![Module Specifiers Documentation](https://v8.dev/features/modules#specifiers)
 
+Found JS link in the page source of this BS sample page
+![Sample page](https://getbootstrap.com/docs/4.0/examples/starter-template/#)
+
+Putting these links into my home page and clicking on the menu shows an error in the console, indicating what's missing from my file
+![The missing files](./assets/images/readme-home-04.png)
+
+I follow this tutorial to ![install bootstrap, jquery and popper.js](https://medium.com/@tejastg007/how-to-install-and-use-bootstrap-jquery-and-popper-js-with-webpack-d1580720f94f)
+
+
+
 Left the JS stuff for now, added nav bar and title to home page 
 ![Home page with nav bar](./assets/images/readme-home-03.png)
 
