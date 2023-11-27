@@ -93,7 +93,9 @@ I add a <script> tag to link ./js/bootstrap.js and it throws up more errors in t
 Left the JS stuff for now, added nav bar and title to home page 
 ![Home page with nav bar](./assets/images/readme-home-03.png)
 
-Test commit
+Solved the first error by linking bootstrap.min.js vis CDN 
+![Bootstrap doc with the CDN link](https://getbootstrap.com/docs/3.3/getting-started/)
+![Script tag for Bootstrap JS](./assets/images/readme-home-06.png)
 ## Customising Bootstrap using SASS
 
 ## Django 
