@@ -87,7 +87,8 @@ Putting these links into my home page and clicking on the menu shows an error in
 
 I follow this tutorial to ![install bootstrap, jquery and popper.js](https://medium.com/@tejastg007/how-to-install-and-use-bootstrap-jquery-and-popper-js-with-webpack-d1580720f94f)
 
-
+I add a <script> tag to link ./js/bootstrap.js and it throws up more errors in the console
+![List of console errors](./assets/images/readme-home-05.png)
 
 Left the JS stuff for now, added nav bar and title to home page 
 ![Home page with nav bar](./assets/images/readme-home-03.png)
