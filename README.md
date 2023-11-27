@@ -93,6 +93,7 @@ I add a <script> tag to link ./js/bootstrap.js and it throws up more errors in t
 Left the JS stuff for now, added nav bar and title to home page 
 ![Home page with nav bar](./assets/images/readme-home-03.png)
 
+Test commit
 ## Customising Bootstrap using SASS
 
 ## Django 
