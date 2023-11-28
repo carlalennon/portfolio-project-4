@@ -96,6 +96,19 @@ Left the JS stuff for now, added nav bar and title to home page
 Solved the first error by linking bootstrap.min.js vis CDN 
 ![Bootstrap doc with the CDN link](https://getbootstrap.com/docs/3.3/getting-started/)
 ![Script tag for Bootstrap JS](./assets/images/readme-home-06.png)
+
+Solved the popper error by getting a CDN for popper from ![the popper home page](https://popper.js.org/)
+
+Used ![this page](https://rollbar.com/blog/referenceerror-require-is-not-defined-javascript/#:~:text=The%20ReferenceError%3A%20require%20is%20not%20defined%20error%20usually%20occurs%20when,A%20non%2DNode.) to research why the referenceerror was appearing. It suggests using a script tag to load in the dependency instead of a require command. I will replace to current links in CDN tags with others until something works. This eroor might arise because I'm using a newer version of bootstrap than demonstrated in the CDN, but there's certain functions in the updated bootstrap that I really wanted in my site!
+
+I add the updated CDN links and remove the old local file routes....  and it works! 
+
+![New links and removed script tags](./assets/images/readme-home-07.png)
+![The working pop out menu](./assets/images/readme-home-08.png)
+
+When the triple bar is clicked, the elements move into the wrong place. I imagine this is because this elemenet should be an ![offcanvas](https://getbootstrap.com/docs/5.3/components/offcanvas/) instead of a dropdown
+
+![The displaced elements of the nav bar](./assets/images/readme-home-09.png)
 ## Customising Bootstrap using SASS
 
 ## Django 
