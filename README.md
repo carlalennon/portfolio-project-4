@@ -117,6 +117,7 @@ Once I got to the part of the LMS that introduced Django, I knew my fledgling pr
 
 Source: ![Django Tutorial](https://www.w3schools.com/django/django_intro.php)
 
+Another source: ![Django for beginners](https://simpleisbetterthancomplex.com/series/2017/09/04/a-complete-beginners-guide-to-django-part-1.html)
 
 
 
