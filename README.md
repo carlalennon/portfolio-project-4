@@ -100,10 +100,15 @@ Once I got to the part of the LMS that introduced Django, I knew my fledgling pr
 
 Source: ![Django Tutorial](https://www.w3schools.com/django/django_intro.php)
 
+I started getting a lot of errors in the bash terminal when trying to run my virtual environment. This was to do with Windows not allowing scripts to run without administrator permission. I handled it in the powershell.
+![The red error text](assets/images/readme-django-0.png)
+![The solution in the PS terminal](assets/images/readme-django-1.png)
+
+
 ## Flask 
 
 Followed the LMS to add Flask functionality
-Note: remove debug=true from run.py before submission
+Note: remove debug=true from run.py before submission, change to debog=false
 
 
 
