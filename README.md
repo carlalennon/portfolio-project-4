@@ -100,6 +100,11 @@ Once I got to the part of the LMS that introduced Django, I knew my fledgling pr
 
 Source: ![Django Tutorial](https://www.w3schools.com/django/django_intro.php)
 
+## Flask 
+
+Followed the LMS to add Flask functionality
+Note: remove debug=true from run.py before submission
+
 
 
 
