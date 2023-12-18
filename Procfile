@@ -1,1 +1,1 @@
-web: gunicorn generation-knit.wsgi
+web: gunicorn generationknit.wsgi
