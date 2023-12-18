@@ -1,1 +1,1 @@
-web: gunicorn gknit.wsgi --log-file -
+web: gunicorn gknit.wsgi
