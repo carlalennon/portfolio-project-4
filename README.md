@@ -110,6 +110,13 @@ I started getting a lot of errors in the bash terminal when trying to run my vir
 Followed the LMS to add Flask functionality
 Note: remove debug=true from run.py before submission, change to debog=false
 
+## Heroku Deployment 
+
+When trying to deploy to heroku I get a fatal error that I cannot find the cause of 
+
+Starting a new repo to try and get around this error 
+
+![Heroku logs with h10 application crashed error ](./assets/images/heroku%20crash.png)
 
 
 
