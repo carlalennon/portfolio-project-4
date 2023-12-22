@@ -123,6 +123,9 @@ Starting a new repo to try and get around this error
 https://medium.com/@akshatgadodia/dockerizing-a-django-and-mysql-application-a-step-by-step-guide-d4ba181d3de5
 Creating docker container
 
+Tried creating a container from the supplied code institute docker files but there are too many codeaaywhere dependencies for it to work
+
+Docker now up and running but still can't run the FN
 
 
 
