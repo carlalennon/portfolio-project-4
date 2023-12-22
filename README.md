@@ -118,6 +118,13 @@ Starting a new repo to try and get around this error
 
 ![Heroku logs with h10 application crashed error ](./assets/images/heroku%20crash.png)
 
+*** Other README goes here ***
+
+https://medium.com/@akshatgadodia/dockerizing-a-django-and-mysql-application-a-step-by-step-guide-d4ba181d3de5
+Creating docker container
+
+
+
 
 
 CI README 
