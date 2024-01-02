@@ -127,6 +127,19 @@ Tried creating a container from the supplied code institute docker files but the
 
 Docker now up and running but still can't run the FN
 
+Moved project to codeanywhere for linux compatibility
+
+Set up project for deployment again but get this error when pushing to heroku
+
+![Heroku error can't find a version that satifies the requirement](./assets/images/readme-heroku-error-01.png)
+
+Attempt to resolve by adding "pip install -r requirements.txt" as per this stackoverflow page (https://stackoverflow.com/questions/32302379/could-not-find-a-version-that-satisfies-the-requirement-package)
+
+This throws a new error 
+![Cannot build wheel ](./assets/images/readme-heroku-error-02.png)
+Tryig to solve using this method [https://stackoverflow.com/questions/70508775/error-could-not-build-wheels-for-pycairo-which-is-required-to-install-pyprojec]
+
+This appear to have foxed the issue
 
 
 
