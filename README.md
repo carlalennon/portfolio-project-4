@@ -139,7 +139,11 @@ This throws a new error
 ![Cannot build wheel ](./assets/images/readme-heroku-error-02.png)
 Tryig to solve using this method [https://stackoverflow.com/questions/70508775/error-could-not-build-wheels-for-pycairo-which-is-required-to-install-pyprojec]
 
-This appear to have foxed the issue
+This appear to have fixed the issue but the app still fails to build on heroku. 
+
+Stripped all django, gunicorn, waitress out of the project to redo from scratch. 
+
+
 
 
 
