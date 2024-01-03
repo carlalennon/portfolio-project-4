@@ -155,8 +155,41 @@ https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FSD101_WTS+2023_
        ERROR: No matching distribution found for python-apt==2.4.0+ubuntu1
  !     Push rejected, failed to compile Python app.
  !     Push failed "
+ - attempting to solve with "pip install -r requirements.txt"
+ - putting the above in the terminal throws this error: 
+ "  Building wheel for pycairo (pyproject.toml) ... error
+  error: subprocess-exited-with-error
+  
+  × Building wheel for pycairo (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [15 lines of output]
+      running bdist_wheel
+      running build
+      running build_py
+      creating build
+      creating build/lib.linux-x86_64-cpython-310
+      creating build/lib.linux-x86_64-cpython-310/cairo
+      copying cairo/__init__.py -> build/lib.linux-x86_64-cpython-310/cairo
+      copying cairo/__init__.pyi -> build/lib.linux-x86_64-cpython-310/cairo
+      copying cairo/py.typed -> build/lib.linux-x86_64-cpython-310/cairo
+      running build_ext
+      Package cairo was not found in the pkg-config search path.
+      Perhaps you should add the directory containing `cairo.pc'
+      to the PKG_CONFIG_PATH environment variable
+      No package 'cairo' found
+      Command '['pkg-config', '--print-errors', '--exists', 'cairo >= 1.15.10']' returned non-zero exit status 1.
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for pycairo
+Failed to build pycairo
+ERROR: Could not build wheels for pycairo, which is required to install pyproject.toml-based projects"
 
- 
+- trying this as a solve https://github.com/pygobject/pycairo/issues/39#issuecomment-454689537
+- didn't work 
+- requirements.txt file looks like this ![requirements.txt](./assets/images/readme-heroku-error-03.png)
+
+
 
 
 
