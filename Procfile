@@ -1,1 +1,1 @@
-eb: gunicorn g_knit.wsgi
+web: gunicorn gknit.wsgi
