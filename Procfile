@@ -1,1 +1,0 @@
-web: gunicorn g_knit.wsgi
