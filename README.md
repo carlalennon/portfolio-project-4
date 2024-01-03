@@ -147,7 +147,16 @@ https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FSD101_WTS+2023_
 
 - Blank django project deploys (rocket ship page)
 - Hello world deploys 
+- set up for heroku according to lms 
+- build failed 1 "     Collecting pyparsing==2.4.7 (from -r requirements.txt (line 20))
+         Downloading pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+       ERROR: Ignored the following yanked versions: 0.0.0, 0.7.8
+       ERROR: Could not find a version that satisfies the requirement python-apt==2.4.0+ubuntu1 (from versions: none)
+       ERROR: No matching distribution found for python-apt==2.4.0+ubuntu1
+ !     Push rejected, failed to compile Python app.
+ !     Push failed "
 
+ 
 
 
 
