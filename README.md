@@ -143,6 +143,11 @@ This appear to have fixed the issue but the app still fails to build on heroku.
 
 Stripped all django, gunicorn, waitress out of the project to redo from scratch. 
 
+https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FSD101_WTS+2023_Q3/courseware/16383559f48c4ae4a69e9e9149914729/d5d0251c90ab4dc5b7fc81bb7ac368d2/
+
+- Blank django project deploys (rocket ship page)
+
+
 
 
 
