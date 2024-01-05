@@ -189,6 +189,24 @@ ERROR: Could not build wheels for pycairo, which is required to install pyprojec
 - didn't work 
 - requirements.txt file looks like this ![requirements.txt](./assets/images/readme-heroku-error-03.png)
 
+Got some tutor help to launch to Heroku, thanks Joanna!
+She unintalled files from requirements.txt that codeanywhere installed that were causing the issues.
+She also fixed some dyno issues in Heroku.
+The app launches now. It's so beautiful!
+![The most beautiful Hello World](./assets/images/readme-hello-world-heroku.png)
+
+## Linking a database
+
+I created an account with elephantSQL and created a new instance for gknit. I chose the tiny turtle plan and a datacenter in Ireland.
+![Elephant SQL instance](./assets/images/readme-esql-01.png)
+
+I ensured I had the right version - 12 or above.
+![SQL version](./assets/images/readme-esql-02.png)
+
+I created env.py and linked my database. I then went back and set the secret key to a variable to keep it omre secure.
+![Clunky code](./assets/images/readme-esql-03.png)
+![Nice, clean secret key](./assets/images/readme-esql-04.png)
+
 
 
 
