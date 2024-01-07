@@ -28,9 +28,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['8000-carlalennon-portfolio-pr-og157s0oqb.us2.codeanyapp.com','.herokuapp.com']
+ALLOWED_HOSTS = ['8000-carlalennon-portfolio-pr-og157s0oqb.us2.codeanyapp.com','.herokuapp.com', 'https://8000-carlalennon-portfolio-pr-wy8yd1ktdc.us2.codeanyapp.com/', 'localhost', ':8000', '8000-carlalennon-portfolio-pr-wy8yd1ktdc.us2.codeanyapp.com']
 
 
 # Application definition
