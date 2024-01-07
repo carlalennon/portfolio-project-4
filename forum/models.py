@@ -44,3 +44,32 @@ class Thread(models.Model):
     created_on = models.DateTimeField(auto_now_add=True)
     # Draft
     status = models.IntegerField(choices=STATUS, default=0)
+
+    ## Comment model - Board ER table - * = Forgein key
+# _________________
+#|_ID______________|   -   
+#|_Who replied ____|*  -
+#|_Creator icon____|*  X
+#|_Creator bio_____|*  X
+#|_Date____________|   -
+#|_Content_________|   -
+#|_ID of thread____|*  X
+
+
+
+class Comment(models.Model):
+    thread = models.ForeignKey(
+    Thread, on_delete=models.CASCADE, related_name="comments")
+    #ReplyID - this is also the order in the thread
+    replyID = models.SlugField(max_length=200, unique=True)
+    # User who replied
+    author = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name="commenter")
+    # Add icon for user 
+    # Add bio for user  
+    # Date and Time
+    created_on = models.DateTimeField(auto_now_add=True)    
+    # Content of reply
+    content = models.TextField(max_length=500)
+    # Thread the comment belongs to 
+
