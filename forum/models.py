@@ -45,6 +45,13 @@ class Thread(models.Model):
     # Draft
     status = models.IntegerField(choices=STATUS, default=0)
 
+    # Sorts thread by newest first
+    class Meta:
+        ordering = ["-created_on"]
+
+    def __str__(self):
+        return f"Thread : {self.title} | Creator: {self.author}"
+
     ## Comment model - Board ER table - * = Forgein key
 # _________________
 #|_ID______________|   -   
@@ -72,4 +79,11 @@ class Comment(models.Model):
     # Content of reply
     content = models.TextField(max_length=500)
     # Thread the comment belongs to 
+
+    #Sorts comments by oldest first
+    class Meta:
+    ordering = ["created_on"]
+
+    def __str__(self):
+        return f"Reply: {self.body} Author: {self.author}"
 
