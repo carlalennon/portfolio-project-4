@@ -26,9 +26,9 @@ TAGS = ((0, "General"), (1, "Pattern"), (2, "Yarn"), (3, "Technique"))
 
 class Thread(models.Model):
     #Thread title
-    threadname = models.CharField(max_length=500, unique=True)
+    title = models.CharField(max_length=500, unique=True)
     #Creates url for post - replace with number in future
-    postID = models.SlugField(max_length=200, unique=True)
+    slug = models.SlugField(max_length=200, unique=True)
     author = models.ForeignKey(
     User, on_delete=models.CASCADE, related_name="blog_posts"
     )
@@ -68,7 +68,7 @@ class Comment(models.Model):
     thread = models.ForeignKey(
     Thread, on_delete=models.CASCADE, related_name="comments")
     #ReplyID - this is also the order in the thread
-    replyID = models.SlugField(max_length=200, unique=True)
+    slug = models.SlugField(max_length=200, unique=True)
     # User who replied
     author = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name="commenter")
