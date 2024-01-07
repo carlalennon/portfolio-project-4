@@ -82,7 +82,7 @@ class Comment(models.Model):
 
     #Sorts comments by oldest first
     class Meta:
-    ordering = ["created_on"]
+        ordering = ["created_on"]
 
     def __str__(self):
         return f"Reply: {self.body} Author: {self.author}"

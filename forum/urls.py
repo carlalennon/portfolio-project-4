@@ -1,7 +1,6 @@
-from django.urls import path
 from . import views
-from django.http import HttpResponse
+from django.urls import path
 
 urlpatterns = [
-    path('', views.index, name="forum"),
+    path('', views.ThreadList.as_view(), name='home'),
 ]
