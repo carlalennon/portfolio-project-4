@@ -212,6 +212,10 @@ I created env.py and linked my database. I then went back and set the secret key
 
 Add changes from tutor support here 
 
+## Errors 
+
+- Env.py randomly deleted. Solved by making a new one.
+
 CI README 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
