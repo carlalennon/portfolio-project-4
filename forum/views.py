@@ -5,4 +5,5 @@ from .models import Thread
 ## Create views
 class ThreadList(generic.ListView):
     queryset = Thread.objects.all()
-    template_name = "thread_list.html"
+    template_name = "forum/index.html"
+    paginate_by = 6
