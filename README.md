@@ -216,6 +216,10 @@ Add changes from tutor support here
 
 - Env.py randomly deleted. Solved by making a new one.
 
+## Bibliography 
+
+<https://reintech.io/blog/django-forum-tutorial-build-a-forum-in-django-step-by-step-guide-for-software-developers>
+
 CI README 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
